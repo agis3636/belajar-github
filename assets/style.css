@@ -1,0 +1,164 @@
+.nama {
+	float: left;
+    color: White;
+    font-size: 30px;
+    text-decoration: none;
+    /*padding-right:20px;*/
+    font-family: serif;
+    /*text-decoration: none;*/
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translateY(40px) translateX(60px);
+
+}
+ .nav {
+    background-color: black;
+    padding-bottom: 30px;
+    height: 60px;
+    width: 100%;
+ }
+.menu  {
+    font-size: 20px;
+    float: right;
+    transform:translateY(40px) translateX(-12px);
+}
+.menu > a {
+    text-decoration: none;
+    color: white
+}
+
+.list-menu {
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+    color: yellow;
+    padding-top: 10px;
+    font-family: Oxygen;
+    /*font-family: sans-serif;*/
+}
+
+.jumbotron {
+    background-color: blue;
+    height: 550px;
+    width: 100%;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%),url(./gambar/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black 2px solid;
+}
+
+.about {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+}
+.about-info {
+    text-align: center;
+    font-family: serif;
+    color: black;
+}
+
+img {
+    /*display: block;*/
+    border-radius: 50%;
+    /*transform: translateY(5px) translateX(15.901543374135178vw);*/
+    /*margin: 0 auto;*/
+}
+
+.project {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+.project-info {
+    text-align: center;
+    font-family: serif;
+}
+
+.column {
+    
+    width: 50%;
+    padding: 10px;
+    height: 50%;
+}
+.row-project {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+.contact-info {
+    text-align: center;
+    font-family: serif;
+}
+.background-contact {
+    background-color: brown;
+    height: 50px;
+    width: 60%;
+}
+.facebook {
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.youtube {
+    margin: 10px;
+    color: blue;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.github {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.whatsapp {
+    margin: 10px;
+    color: lightgreen;
+    background-color: green;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+}
+.footer {
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    font-family: arial;
+    padding: 20px;
+
+}
+
+.footer-nama {
+    color: white;
+}
+
+#footer {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
